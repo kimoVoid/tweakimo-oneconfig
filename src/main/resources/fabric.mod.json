@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "tweakimo",
+	"version": "${version}",
+	"name": "Tweakimo",
+	"description": "Miscellaneous tweaks.",
+	"authors": [
+		"kimoVoid"
+	],
+	"contact": {
+		"homepage": "https://github.com/kimoVoid/tweakimo-oneconfig"
+	},
+	"license": "MIT",
+	"icon": "assets/tweakimo/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client-init": [
+			"io.github.kimovoid.tweakimo.Tweakimo"
+		]
+	},
+	"mixins": [
+		"tweakimo.mixins.json"
+	],
+	"depends": {
+		"minecraft": "1.8.9"
+	}
+}
